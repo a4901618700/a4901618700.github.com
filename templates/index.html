@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<title>Surreal Studio</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+	<!-- CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="css/skeleton.css">	
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+    
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <link rel="stylesheet" href="css/lanrenzhijia.css" type="text/css"/>
+
+	<!-- Google Web Fonts -->
+	<link href="http://fonts.useso.com/css?family=Shadows+Into+Light|Oswald:400,300,700" rel="stylesheet" type="text/css">
+
+
+    
+    <!-- JavaScripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/lanrenzhijia.js"></script>
+    <script type="text/javascript" src="js/prefixfree.min.js"></script>
+	<script type="text/javascript" src="js/modernizr-2.6.2.js"></script>
+    <script type="text/javascript" src="js/iOS-timer.js"></script>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.run.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-touch-swipe-1.0.js"></script>
+    <script type="text/javascript" src="js/jquery.lazyload.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+    <script type="text/javascript" src="js/supersized.shutter.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/contact_form.js"></script>
+    <script type="text/javascript" src="js/tooltip.js"></script>
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+
+
+	<script type="text/javascript">
+
+			var isMobile = false;
+	
+			if( navigator.userAgent.match(/Android/i) || 
+				navigator.userAgent.match(/webOS/i) ||
+				navigator.userAgent.match(/iPhone/i) || 
+				navigator.userAgent.match(/iPad/i)|| 
+				navigator.userAgent.match(/iPod/i) || 
+				navigator.userAgent.match(/BlackBerry/i)){
+								
+				isMobile = true;
+							
+			}
+			
+			/*iOS5 fixed-menu fix*/
+			var iOS5 = false;
+			
+			if (navigator.userAgent.match(/OS 5(_\d)+ like Mac OS X/i)){
+			
+				iOS5 = true;
+			
+			}
+		
+			
+	</script>
+
+
+
+	<script>
+		$(document).ready(function(){
+			$("nav").sticky({topSpacing:0});
+		});
+	</script>
+    <script>
+        var isindex = true;
+        var visitor = true;
+    </script>
+    <script>
+
+    </script>
+
+
+</head>
+
+<body>
+
+<!-- Start Homepage -->
+    <div id="spig" class="spig">
+    <div id="message">正在加载中……</div>
+    <div id="mumu" class="mumu"></div>
+    </div>
+	<div id="homepage" class="homepage section">
+		
+		<div class="container">
+			<div class="sixteen columns">
+				<a href="../logo1.html"><img id="logo" class="logo" src="images/logo.png" /></a>
+			</div>
+			
+			<div class="slider-text">
+				<div class="sixteen columns">
+					<div class="line"></div>
+				</div>
+				
+				<div class="twelve columns">
+					<div id="slidecaption"></div>
+				</div>
+				
+				<div class="four columns">
+					<a id="prevslide" class="load-item"></a>
+					<a id="nextslide" class="load-item"></a>
+				</div>
+			</div>
+			
+		</div>
+	</div>      
+	
+<!--End homepage -->
+
+<!-- Start Navigation -->
+	<nav>
+	
+		<div class="container">
+			
+			<div class="sixteen columns">
+				
+				<!-- Start Nav Menu -->
+				<ul class="menu" id="nav">
+					<li><a href="#homepage">Home</a></li>
+                    <li><a href="#folio">Portfolio</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Game</a></li>
+                    <li><a href="#features">Features</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				<!-- End Nav Menu -->
+				<!-- Start Dropmenu for mobile -->		
+				<select class="dropmenu" name="dropmenu" onChange="moveTo(this.value)">
+					<option value="" selected="selected">Menu</option>
+					<option value="#homepage">Home</option>
+					<option value="#folio">Portfolio</option>
+					<option value="#about">About</option>
+					<option value="#services">Game</option>
+					<option value="#features">Features</option> 
+					<option value="#contact">Contact</option> 
+				</select>
+				<!-- End Dropmenu for mobile -->
+				
+			</div>
+	
+		</div>
+	
+	</nav>
+<!-- End Navigation -->	
+     
+     
+<!--start portfolio -->
+     <div id="folio" class="page section">
+        	<div class="container">
+                
+                <div class="sixteen columns">
+                    <h1>Portfolio</h1>
+                    <h3><span class="small">Those who do</span> <span class="smallBold">not want to</span>
+                    <br><span class="largeBold">imitate</span> <span class="large">anything,</span>
+                    <br><span class="medium">produce</span><span class="mediumBold"> nothing.</span> 
+                    <br><span class="author">Salvador Dali</span></h3>
+                   
+                </div>
+            </div>
+        <div class="gallerySelector">
+            <ul class="gallerySelectorList">
+                <li class="current"><a data-filter="article.portfolio" href="#">All</a></li>
+                <li><a data-filter="article.portfolio[data-category~='illustration']" href="#">Illustration</a></li>
+                <li><a data-filter="article.portfolio[data-category~='photography']" href="#">Photography</a></li>
+                <li><a data-filter="article.portfolio[data-category~='branding']" href="#">Branding</a></li>
+                <li><a data-filter="article.portfolio[data-category~='video']" href="#">Video</a></li>
+            </ul>
+        </div>
+            
+        <section class="portfolio_container">
+            
+			<article class="portfolio" data-category="branding">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-01-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="images/gallery/gallery-01.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+
+            <article class="portfolio" data-category="photography">
+                <section class="thumbImage">
+                	<img src="images/gallery/gallery-02-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="images/gallery/gallery-02.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="video">
+                <section class="thumbImage"><figure>
+                    <img src="images/gallery/gallery-03-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="http://vimeo.com/24169968" rel="prettyPhoto" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="illustration">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-04-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="images/gallery/gallery-04.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="photography">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-05-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="images/gallery/gallery-05.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="video">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-06-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="http://vimeo.com/24169968" rel="prettyPhoto" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="illustration">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-07-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="images/gallery/gallery-07.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="photography">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-08-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="images/gallery/gallery-08.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="video">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-10-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="http://vimeo.com/24169968" rel="prettyPhoto" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="illustration">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-11-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="images/gallery/gallery-11.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="photography">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-12-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="images/gallery/gallery-12.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="photography">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-13-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="images/gallery/gallery-13.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="video">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-14-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="http://vimeo.com/24169968" rel="prettyPhoto" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="illustration">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-15-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="images/gallery/gallery-15.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="photography">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-16-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="images/gallery/gallery-16.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="illustration">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-17-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="images/gallery/gallery-17.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="photography">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-18-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="images/gallery/gallery-18.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="branding">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-19-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="images/gallery/gallery-19.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="video">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-20-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="http://vimeo.com/24169968" rel="prettyPhoto" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="illustration">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-21-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="images/gallery/gallery-21.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="photography">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-22-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="images/gallery/gallery-22.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="branding">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-23-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="images/gallery/gallery-23.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="video">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-24-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="http://vimeo.com/24169968" rel="prettyPhoto" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="video">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-25-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="images/gallery/gallery-25.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            
+            <article class="portfolio" data-category="photography">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-26-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="images/gallery/gallery-26.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+ 
+            <article class="portfolio" data-category="illustration">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-28-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="images/gallery/gallery-28.jpg" rel="prettyPhoto[gallery1]" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            <article class="portfolio" data-category="video">
+                <section class="thumbImage">
+                    <img src="images/gallery/gallery-29-thumb.jpg" alt="" class="fullwidth">
+                    <div class="thumbTextWrap">
+                        <div class="thumbText">
+                            <h3 class="sectionTitle">Gallery Item</h3>
+                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                            <a class="thumbLink" href="http://vimeo.com/24169968" rel="prettyPhoto" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+            
+         </section>
+			<div class="portfolioBottom"></div>
+            
+         <!--start parallax 1-->
+         <div id="parallax-1" class="parallax fixed" style="background-image: url(images/parallax-1.jpg);">
+             <div class="quoteWrap">
+				<div class="quote">
+                	<div class="container">
+                        <div class="sixteen columns">
+                            <h3><span class="large">I am not</span> <span class="largeBold">strange.</span>
+                            	<br><span class="medium"> I just like poetry and landscape painting </span> <span class="mediumBold">painting.</span>
+                            	<br><span class="author">Salvador Dali</span></h3>
+                        </div>
+                    </div>  
+				</div>
+             </div>
+         </div>
+         <!--end parallax-->
+        
+     </div>
+<!--end portfolio-->       
+     
+<!--start About -->
+     <div id="about" class="page section">
+     
+        <div class="container aboutContainer">
+        
+            <div class="sixteen columns">
+            	<h1><span>About<br /></span>Surreal</h1>
+                <h3><span class="smallBold">Award winning</span> <span class="small">digital agency.</span>
+                <br><span class="mediumBold">We bring a personal</span> <span class="medium">and effective approach</span>
+                <br><span class="medium">to every project we work on,</span><span class="mediumBold">which is why</span>
+                <br><span class="large">our clients </span> <span class="largeBold">love us</span>
+                <br><span class="medium">and why they keep</span><span class="mediumBold"> coming back.</span> 
+                </h3>
+            </div>
+            
+            <div class="one-third column">
+            	<div class="teamImage">
+                    <img class="scale-with-grid lazy" src="images/team1.jpg" alt=""/>
+                    <div class="teamName">
+                        <h2>Jane Smith</h2>
+                        <h3>Creative Director</h3>
+                        <ul class="socialLinksTeam tooltips">
+                            <li class="twitter-white"><a href="#" rel="tooltip" title="Twitter">Twitter</a></li>
+                            <li class="facebook-white"><a href="#" rel="tooltip" title="Facebook">Facebook</a></li>
+                            <li class="skype-white"><a href="#" rel="tooltip" title="Skype">Skype</a></li>
+                            <li class="linkedin-white"><a href="#" rel="tooltip" title="LinkedIn">Linked In</a></li>
+                            <li class="dropbox-white"><a href="#" rel="tooltip" title="Dropbox">Dropbox</a></li>
+                        </ul>
+                    </div>
+                </div>                        
+            	<p>Le Lorem Ipsum est simplement du faux <span class="highlight">texte employé dans</span> la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie!</p>
+             
+                <h3 class="sectionTitle">Skills</h3>
+                <div class="teamSkill">
+                    <ul>
+                        <li>
+                            <p class="skill">Client Liasing</p>
+                            <div class="bar percent90">
+                            <p class="percent">95%</p></div>
+                        </li>
+                        <li>
+                            <p class="skill">Client Lunches</p>
+                            <div class="bar percent100">
+                            <p class="percent">100%</p></div>
+                        </li>
+                        <li>
+                            <p class="skill">i devices</p>
+                            <div class="bar percent90">
+                            <p class="percent">90%</p></div>
+                        </li>
+                        <li>
+                            <p class="skill">Texture of material</p>
+                            <div class="bar percent40">
+                            <p class="percent">100%</p></div>
+                        </li>
+                        <li>
+                            <p class="skill">MS Word</p>
+                            <div class="bar percent25">
+                            <p class="percent">25%</p></div>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="one-third column">
+            	<div class="teamImage">
+                    <img class="scale-with-grid lazy" src="images/team2.jpg" alt=""/>
+                    <div class="teamName">
+                        <h2>Julie Smith</h2>
+                        <h3>Senior Designer</h3>
+                        <ul class="socialLinksTeam tooltips">
+                            <li class="twitter-white"><a href="#" rel="tooltip" title="Twitter">Twitter</a></li>
+                            <li class="facebook-white"><a href="#" rel="tooltip" title="Facebook">Facebook</a></li>
+                            <li class="skype-white"><a href="#" rel="tooltip" title="Skype">Skype</a></li>
+                            <li class="linkedin-white"><a href="#" rel="tooltip" title="LinkedIn">Linked In</a></li>
+                            <li class="dropbox-white"><a href="#" rel="tooltip" title="Dropbox">Dropbox</a></li>
+                        </ul>
+                    </div>
+                </div>                        
+            	<p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. <span class="highlight">Le Lorem</span> Ipsum est le faux texte standard de l'imprimerie!</p>
+             
+                <h3 class="sectionTitle">Skills</h3>
+                <div class="teamSkill">
+                    <ul>
+                        <li>
+                            <p class="skill">Photoshop</p>
+                            <div class="bar percent90">
+                            <p class="percent">90%</p></div>
+                        </li>
+                        <li>
+                            <p class="skill">Illustrator</p>
+                            <div class="bar percent80">
+                            <p class="percent">90%</p></div>
+                        </li>
+                        <li>
+                            <p class="skill">i devices</p>
+                            <div class="bar percent90">
+                            <p class="percent">90%</p></div>
+                        </li>
+                        <li>
+                            <p class="skill">Movies</p>
+                            <div class="bar percent60">
+                            <p class="percent">60%</p></div>
+                        </li>
+                        <li>
+                            <p class="skill">Cleaning</p>
+                            <div class="bar percent25">
+                            <p class="percent">25%</p></div>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="one-third column">
+            	<div class="teamImage">
+                    <img class="scale-with-grid lazy" src="images/team3.jpg" alt=""/> 
+                    <div class="teamName">
+                        <h2>Judy Smith</h2>
+                        <h3>Developer</h3>
+                        <ul class="socialLinksTeam tooltips">
+                            <li class="twitter-white"><a href="#" rel="tooltip" title="Twitter">Twitter</a></li>
+                            <li class="facebook-white"><a href="#" rel="tooltip" title="Facebook">Facebook</a></li>
+                            <li class="skype-white"><a href="#" rel="tooltip" title="Skype">Skype</a></li>
+                            <li class="linkedin-white"><a href="#" rel="tooltip" title="LinkedIn">Linked In</a></li>
+                            <li class="dropbox-white"><a href="#" rel="tooltip" title="Dropbox">Dropbox</a></li>
+                        </ul>
+                    </div>
+                </div>                        
+            	<p>Le Lorem Ipsum est <span class="highlight">simplement du faux</span> texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie!</p>
+             
+                <h3 class="sectionTitle">Skills</h3>
+                <div class="teamSkill">
+                    <ul>
+                        <li>
+                            <p class="skill">HTML</p>
+                            <div class="bar percent90">
+                            <p class="percent">90%</p></div>
+                        </li>
+                        <li>
+                            <p class="skill">Javascript</p>
+                            <div class="bar percent60">
+                            <p class="percent">60%</p></div>
+                        </li>
+                        <li>
+                            <p class="skill">Jquery</p>
+                            <div class="bar percent70">
+                            <p class="percent">70%</p></div>
+                        </li>
+                        <li>
+                            <p class="skill">Ajax</p>
+                            <div class="bar percent100">
+                            <p class="percent">60%</p></div>
+                        </li>
+                        <li>
+                            <p class="skill">Css</p>
+                            <div class="bar percent80">
+                            <p class="percent">80%</p></div>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="sixteen columns">
+            	<h3 class="sectionTitle">Our Numbers</h3>
+            </div>
+            
+            <div class="statsWrap">
+            	<div class="stats">
+                    <div class="statDummy"></div>
+                    <div class="statInfo">
+                        <p class="statNumber">98%</p>
+                        <p class="statText">Client Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+            <div class="statsWrap">
+            	<div class="stats">
+                    <div class="statDummy"></div>
+                    <div class="statInfo">
+                        <p class="statNumber">21</p>
+                        <p class="statText">Awards Won in 2012</p>
+                    </div>
+                </div>
+            </div>
+            <div class="statsWrap">
+            	<div class="stats">
+                    <div class="statDummy"></div>
+                    <div class="statInfo">
+                        <p class="statNumber">36</p>
+                        <p class="statText">Cups of coffee a day</p>
+                    </div>
+                </div>
+            </div>
+            <div class="statsWrap">
+            	<div class="stats">
+                    <div class="statDummy"></div>
+                    <div class="statInfo">
+                        <p class="statNumber statNumberMedium">1,350</p>
+                        <p class="statText">Lines of code in this site</p>
+                    </div>
+                </div>
+            </div>
+            <div class="statsWrap">
+            	<div class="stats">
+                    <div class="statDummy"></div>
+                    <div class="statInfo">
+                        <p class="statNumber">67</p>
+                        <p class="statText">Websites Built</p>
+                    </div>
+                </div>
+            </div>
+            <div class="statsWrap">
+            	<div class="stats">
+                    <div class="statDummy"></div>
+                    <div class="statInfo">
+                        <p class="statNumber statNumberSmall">122,345</p>
+                        <p class="statText">Unique visitors to our site in 2012</p>
+                    </div>
+                </div>
+            </div>
+            <div class="statsWrap">
+            	<div class="stats">
+                    <div class="statDummy"></div>
+                    <div class="statInfo">
+                        <p class="statNumber">54</p>
+                        <p class="statText">Average apps on iphone</p>
+                    </div>
+                </div>
+            </div>
+            <div class="statsWrap">
+            	<div class="stats">
+                    <div class="statDummy"></div>
+                    <div class="statInfo">
+                        <p class="statNumber statNumberSmall">234,989</p>
+                        <p class="statText">Clients Unique Visitors for the first week after site launch</p>
+                    </div>
+                </div>
+            </div>
+            
+     	</div>
+        
+        <!--start parallax 2-->
+         <div id="parallax-2" class="parallax fixed" style="background-image: url(images/parallax-2.jpg);">
+             <div class="quoteWrap">
+				<div class="quote">
+                	<div class="container">
+                        <div class="sixteen columns">
+                            <h3><span class="smallBold">A true</span> <span class="small">artist</span>
+                            <br><span class="large">is not one who</span> <span class="largeBold">is inspired,</span>
+                            <br><span class="medium">but one who</span><span class="mediumBold"> inspires others.</span> 
+                            <br><span class="author">Salvador Dali</span></h3>
+                        </div>
+                    </div>  
+				</div>
+             </div>
+         </div>
+       <!--end parallax 2-->
+        
+     </div>
+ <!--end about--> 
+    
+    
+ <!--start Services -->
+     <div id="services" class="page section">
+     
+        <div class="container servicesContainer">
+        
+             <div class="sixteen columns">
+             	<h1><span>Our</span><br/>Game</h1>
+                <h3><span class="mediumBold">We have a variety of intellectual memory games</span>
+                <br><span class="medium">a total of entertainment</span>
+                <br><span class="large">I hope you have fun here to thank you for your visitr</span>
+                </h3>
+            </div>
+      
+            <div class="one-third column">
+                <div class="serviceItem creativity">
+
+                    <div class="serviceInfoWrap" id="feng">
+                        <div class="serviceInfo">
+                            <div class="serviceInfoFront">
+                            </div>
+                            <div class="serviceInfoBack">
+                                <div class="serviceIcon"></div>
+                                <a href="fish/fish.html">点击游戏</a>
+                                <p>捕鱼达人 休闲游戏 智益</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="one-third column">
+                <div class="serviceItem strategy">
+                    <div class="serviceInfoWrap">
+                        <div class="serviceInfo">
+                            <div class="serviceInfoFront"></div>
+                            <div class="serviceInfoBack">
+                                <div class="serviceIcon"></div>
+                                <a href="Basketball/Basketball.html">点击游戏</a>
+                                <p>篮球投篮 休闲游戏 体育</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="one-third column">
+                <div class="serviceItem development">
+                    <div class="serviceInfoWrap">
+                        <div class="serviceInfo">
+                            <div class="serviceInfoFront"></div>
+                            <div class="serviceInfoBack">
+                                <div class="serviceIcon"></div>
+                                <a href="xiangqi/xiangqi.html">点击游戏</a>
+                                <p>中国象棋 休闲游戏 智益</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="one-third column">
+                <div class="serviceItem copywriting">
+                    <div class="serviceInfoWrap">
+                        <div class="serviceInfo">
+                            <div class="serviceInfoFront"></div>
+                            <div class="serviceInfoBack">
+                                <div class="serviceIcon"></div>
+                                <a href="luck/luck.html">点击游戏</a>
+                                <p>抢红包 休闲游戏 娱乐</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="one-third column">
+                <div class="serviceItem photography">
+                    <div class="serviceInfoWrap">
+                        <div class="serviceInfo">
+                            <div class="serviceInfoFront"></div>
+                            <div class="serviceInfoBack">
+                                <div class="serviceIcon"></div>
+                                <a href="landlords/landlords.html">点击游戏</a>
+                                <p>单机斗地主 休闲游戏 智益</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="one-third column">
+                <div class="serviceItem production">
+                    <div class="serviceInfoWrap">
+                        <div class="serviceInfo">
+                            <div class="serviceInfoFront"></div>
+                            <div class="serviceInfoBack">
+                                <div class="serviceIcon"></div>
+                                <a href="landlords/landlords.html">点击游戏</a>
+                                <p>单机桌球 休闲游戏 智益</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ten columns marginTop">
+                <p class="introtext"><span class="dropcap">V</span>The characteristics of Chinese landscape painting should have the following elements;</p>
+                <p> 1, people seem to feel broad, extraordinary courage. To "see" the confusion between 10000 "majestic and grand" tolerance.
+                    2, depth, a layer, to the far extension, there is no exhaust feeling.
+                    3, the sense of hierarchy should be clear. Block surface to be separated, so that people feel different blocks, immediately know the front and back between each block, or so the relationship between the.
+                    4, to express the theme is again the center, should focus on description, clear account, other foil part emphasizes to meaning, a few sparse pen, up to that point, Chinese painting emphasizes the artistic conception, can meaning to pen to, don't face mask, explained very clearly, otherwise it will dilute the theme, superfluous.
+                    5, landscape paintings of rocks, trees, new, strange, strange, dangerous. People have a fresh feeling, a sense of danger. Easy to attract the audience, to impress people.
+                    6, to achieve the above results are expressed in words, so this is very important to the ink, should continue to practice, a painting of the level of high and low, the view of the standing pole. Otherwise good mood can not be achieved.
+                    7, landscape painting in the high level, depicting the real is secondary, the key is "false" to deal with, saying is easy, to do well, is very difficult, in part because of "virtual", are often generated at random, well, a picture so screwed up. This is also the level of the problem.
+                 </p>
+            </div>
+
+
+     	</div>
+        
+        <!--start parallax 3-->
+         <div id="parallax-3" class="parallax fixed" style="background-image: url(images/parallax-3.jpg);">
+             <div class="quoteWrap">
+				<div class="quote">
+                	<div class="container">
+                        <div class="sixteen columns">
+                            <h3><span class="largeBold">Intelligence</span> <span class="large">without ambition</span>
+                                <br><span class="medium">is a bird</span> <span class="mediumBold">without wings.</span> 
+                                <br><span class="author">Salvador Dali</span>
+                            </h3>
+                        </div>
+                    </div>
+				</div>
+             </div>
+         </div>
+       <!--end parallax 3-->
+        
+     </div>
+<!--end services-->  
+    
+    
+<!--start Features -->
+     <div id="features" class="page section">
+     
+        <div class="container featuresContainer">
+        
+        	 <div class="sixteen columns">
+             	<h1><span>Key</span><br/>Features</h1>
+                <h3><span class="mediumBold">Easily add</span> <span class="medium">more sections</span>
+                <br><span class="medium">to the site</span> <span class="mediumBold">with ease</span>
+                <br><span class="large">very clean</span> <span class="largeBold">HTML & CSS.</span>
+                </h3>
+            </div>
+              
+            <div class="sixteen columns">
+                <h3 class="sectionTitle">Youtube & Vimeo Support</h3>
+                <p>Embed Videos directly from your favourite video websites like Vimeo or Youtube & show off your Creativity.</p>
+                </div>
+        
+        	<!-- Flickr -->
+            <div class="sixteen columns latestFlickr">
+                <h3 class="sectionTitle">Flickr</h3>
+                    <div class="flickrListing">
+                        <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=latest&amp;size=s&amp;layout=x&amp;source=user&amp;user=21644167@N04"></script>
+                        <div class="clearfix"></div>
+                    </div>
+            </div>
+            
+            <!-- FAQs -->
+			<div class="sixteen columns">
+            <h3 class="sectionTitle">FAQs</h3>
+        	<p class="introtext">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. <br/>Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue.</p>
+
+                <!-- Accordion #1 -->
+                <span class="accTrigger question"><a href="#"> What are the characteristics of Chinese landscape painting in dealing with spatial relations? </a></span>
+                <div class="accContainer">
+                    <div class="accContent">Ink have concentrated on special traditional Aioi blending of Chinese landscape painting is to create a blend of form and spirit, the artistic conception, radius changes. A pen, and emphasizes the thickness; freehand and work with writing in three forms; the feeling is also reflected in its artistic techniques. Multiple aspects of the ink also such as the use of color, also have their own characteristics, apply color, ancient Youmo divided into colorful experience and light to be witty and unlucky, pen, and more emphasis on to express the author's subjective interests, but or scroll, style also miserly, do not emphasize nature for objects of the change of light and color, pen, is an important part of Chinese painting style, frustration, to the texture of the object, or for a vertical shaft, must have strong weak, with ink; concentrated to has the thick and thick, do not rigidly adhere to the surface of Xiaosi.</div>
+                </div>
+                    
+                <!-- Accordion #2 -->
+                <span class="accTrigger question"><a href="#">What is Chinese landscape painting?</a></span>
+                <div class="accContainer">
+                    <div class="accContent">Chinese painting has a long history, in the history of the world has a pivotal position in the history of culture. Landscape painting referred to as the "landscape", is a large painting of Chinese painting, the description of the natural scenery of the landscape as the main painting. North and south, Zhao Bosu, Zhao Boju,,,,,, go in for sth in a large scale in Wei, Jin, southern and Northern Dynasties gradually development, Sui and Tang Dynasties began independent, such as Zhan Ziqian colors landscape, Li Xun Jinbi landscape, Wang Wei's painting pen, the Five Dynasties, the Northern Song Dynasty landscape painting, the author flared up, such as Jing Hao, Guan Tong, Li Cheng, Dong Yuan, Ju ran, fan Kuan, Xu Ning Road Yan Wengui Limthongkul Wangshen Mitty Mi Youren ink landscape Wang Ximeng rustle of blue and green landscape painting, can be described as Jing Hui, reached a peak, then become China's Chinese painting a large painting department; Yuan Dynasty landscape painting freehand brushwork tended to empty, focus on pen and ink charm, to create fresh air; the Ming and Qing Dynasties and modern, continued development, but also a new look. Pay attention to the performance of the location and expression of artistic conception. The traditional method is ink, green, golden, light purple, light color, "etc..</div>
+                </div>
+                    
+                <!-- Accordion #3 -->
+                <span class="accTrigger question"><a href="#">
+
+                    development history </a></span>
+                <div class="accContainer">
+                    <div class="accContent">Chinese landscape painting than the western landscape, at least as early as 1000 years. The meaning of the picture is actually a history of Chinese thought. As early as 7000 years ago, the first record of the awakening of ancient pictorial. The Neolithic culture of Hemudu Site, has been engraved with the lines of the concept of cultural connotation, the origin of the agricultural civilization, not only to make people aware of the beauty of the tool, but also let the people on the cognitive. Art is not only a kind of imagination to conquer nature, but also a symbol of the conquest of the natural imagination. Ancient and natural first began to use the way of art to live, the logic of the discovery and appreciation of the art of people's eyes, so that a combination of human and nature of the Chinese schema from chaos to the clear.</div>
+                </div>
+                
+                <!-- Accordion #4 -->
+                <span class="accTrigger question"><a href="#">The establishment of landscape painting</a></span>
+                <div class="accContainer">
+                    <div class="accContent">Nowadays, with the establishment of "two words" to name the landscape painting on Gu Kaizhi's "Lo River map" and "picture of Lady officials". In the analysis of this kind of copy, we can see the performance of complex peak, stone, cloud, water, tree. The predecessors are not issued, open to the posterity apprentice artists, for the first time the landscape onto the stage of Chinese art, his "painting Yuntaishan mind" can calculate a landscape painting of mountains. Although the central theme is Zhao Sheng died from the story, but the ruling was later to become part of the environment on Chinese landscape painting</div>
+                </div>
+                
+                <!-- Accordion #5 -->
+                <span class="accTrigger question"><a href="#">The realm of landscape painting</a></span>
+                <div class="accContainer">
+                    <div class="accContent">Landscape painting: Lingshan lake shore berth boat
+
+                        At the beginning of the Sui and Tang Dynasties, landscape painting has a Chinese branch independent, since the landscape, figures, flowers and birds, a
+
+                        Landscape painting appreciation of the past dynasties landscape painting
+
+                        Landscape painting appreciation of the past dynasties (35)
+
+                        For the traditional painting Chinese sparkling three art subjects. The landscape painting is not only a unique landscape in the world art jungle, but also carries the most profound Chinese cultural field in the field of sustenance, accompanied by the Chinese art through the most glorious historical period. It should be said that the development of Chinese landscape painting, and the "Jin people to find out the natural, inward to find their deep feelings (white Chinese)" has a great relationship. Literati finally found a unique Daobai context, with text describing the natural landscape, pour out infinite inner world of love and elegant charm.</div>
+                </div>
+                
+                <!-- Accordion #6 -->
+                <span class="accTrigger question"><a href="#">Characteristics of landscape painting</a></span>
+                <div class="accContainer">
+                    <div class="accContent">Landscape painting is a characteristic of China branch, from the Sui Dynasty began to landscape painting, landscape painting emphasizes "Pingyuan", "lofty", and "far", using scatterplot perspective method, Pingyuan as "walking in the mountain vagina", while walking in the street, changing focus can draw very long scroll, including in Jiangshan miles lofty as by parachute from the top of the hill slowly down, focus is changing, from the top of the hill to the foot of the mountain can draw a vertical scroll; profound is the use of far and near mountain form the contrast of shade, draw three-dimensional, valley deep effect.</div>
+                </div>
+
+			</div>
+            
+     	</div>
+        
+        <!--start parallax 4-->
+         <div id="parallax-4" class="parallax fixed" style="background-image: url(images/parallax-4.jpg);">
+             <div class="quoteWrap">
+				<div class="quote">
+                	<div class="container">
+                        <div class="sixteen columns">
+                            <h3><span class="largeBold">Drawing is the</span> <span class="large">honesty of the art.</span>
+                                <br><span class="medium">There is no possibility</span> <span class="mediumBold">of cheating:</span>
+                                <br><span class="large">It is either</span> <span class="largeBold">good or bad.</span> 
+                                <br><span class="author">Salvador Dali</span>
+                            </h3>
+                        </div>
+                    </div>  
+				</div>
+             </div>
+         </div>
+       <!--end parallax 4-->
+        
+     </div>
+<!--end Features-->  
+    
+<!--start contact-->
+     <div id="contact" class="page section">
+     
+        <div class="container contactContainer">
+        
+        	<div class="sixteen columns">
+            	<h1>Contact<span>Us</span></h1>
+                <h3><span class="mediumBold">Get in</span> <span class="medium">touch</span>
+                <br><span class="medium">let's</span> <span class="mediumBold">have a chat</span>
+                <br><span class="large">we can</span> <span class="largeBold">help you</span>
+                <br><span class="medium">promote</span> <span class="mediumBold">your business.</span> 
+                </h3>
+            </div> 
+               
+            <div class="three columns marginTop contactDetails">
+                    <p class="contactAddress">123 Flinders St<br/>Melbourne VIC 3000
+                    		<br/><a href="#?custom=true&width=500&height=500" rel="prettyPhoto">Google Map</a></p>
+            </div>
+            <div class="three columns marginTop contactDetails">
+                    <p class="contactPhone">Phone: 17718491250</p>
+                    <p class="contactEmail">Email: <a href="#">1975921431@qq.com</a></p>
+                    <p class="contactSkype">Skype: <a href="#">melb@surreal.com.au</a></p>
+            </div>
+            <div class="three columns marginTop contactDetails">
+                    <p class="contactTime">
+                            Mon-Fri: 9:00am &rarr; 5:30pm <br/>
+                            Sat: 10:00am &rarr; 2:30pm <br/>
+                            Sunday: Closed
+                    </p>
+            </div>       
+                    
+        
+            
+            <div id="contact_form">
+                <div class="two-thirds column marginTop formWrap">
+                    <form action="#" method="post" class="contactForm">
+                        <div class="formSecWrap">
+                            <label for="form_name">Name</label>
+                                <input type="text" id="form_name" name="form_name" value="" />
+           
+                            <label for="form_email">Email</label>
+                                <input type="text" name="form_email" id="form_email" value="" />
+                      
+                            <label for="form_subject">Subject</label>
+                                <input type="text" name="form_subject" id="form_subject" value="" />
+                        </div>
+                        <div class="formSecWrap formSecWrap2">
+                            <label for="form_message">Message</label>
+                                <textarea class="textarea" name="form_message" id="form_message"></textarea>
+                        
+                                <input class="button" id="submit-form" type="submit" name="submit" value="Send Message" />
+                        </div>
+                        <div id="success"></div>
+                    </form>
+                </div>
+            </div>
+   	   </div>
+        
+        
+        <!--start parallax 5-->
+         <div id="parallax-5" class="parallax fixed" style="background-image: url(images/parallax-5.jpg);">
+            <div class="quoteWrap">
+				<div class="quote">
+                	<div class="container">
+                        <div class="sixteen columns">
+                        	<h3>
+                            <span class="large">Visit our</span> <span class="largeBold">funky studio</span>
+                            <br><span class="medium">in the heart of</span><span class="mediumBold"> China.</span>
+                            </h3>
+                        </div>
+                    </div>  
+				</div>
+             </div>
+         </div>
+       <!--end parallax 5-->
+        
+     </div>
+<!--end contact--> 
+    
+    
+<!--start footer-->
+    <div id="footer">
+    
+        <div class="container">
+            <!-- Our Clients -->
+            <div class="sixteen columns">
+                <h3 class="sectionTitle">Our Clients</h3>
+            </div>
+            
+            <div class="sixteen columns">
+                 <section class="slider">
+                    <div id="carouselSlider" class="flexslider carousel">
+                       <ul class="slides">
+                          <li><img src="images/logos/Marlin-white.png" alt="Marlin" /></li>
+                          <li><img src="images/logos/Aquatic-white.png" alt="Aquatic"/></li>
+                          <li><img src="images/logos/Dalmation-Design-white.png" alt="Dalmation Design" /></li>
+                          <li><img src="images/logos/Imperius-Horse-white.png" alt="Imperius" /></li>
+                          <li><img src="images/logos/Octopixel-white.png" alt="Octopixel" /></li>
+                          <li><img src="images/logos/Sirius-white.png" alt="Sirius" /></li>
+                          <li><img src="images/logos/Solenergy-white.png" alt="Solenergy" /></li>
+                          <li><img src="images/logos/Spiralus-Multimedia-white.png" alt="Spiralus" /></li>
+                          <li><img src="images/logos/Think-pink-white.png" alt="Think Pink" /></li>
+                       </ul>
+                    </div>
+                 </section>
+            </div>
+            <!-- Our Clients End -->
+            
+            <div class="sixteen columns">	
+                <p class="copyright">&copy; Surreal Studio 2012. <br/>All rights reserved. More Templates.</p>
+            </div>
+        </div>
+    </div>
+<!--end footer-->
+
+<script type="text/javascript">
+	function moveTo(contentArea){
+		var goPosition = $(contentArea).offset().top;
+		$('html,body').animate({ scrollTop: goPosition}, 'slow');
+	}
+</script>
+
+<script type="text/javascript">
+	  $('#carouselSlider').flexslider({
+		animation: "slide",
+		animationLoop: true,
+		itemWidth: 237,
+		itemMargin: 2,
+		start: function(slider){
+		  $('body').removeClass('loading');
+		}
+	  });
+</script>
+
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+		
+		$("a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',slideshow:6000});
+		$(".contactDetails a[rel^='prettyPhoto']:first").prettyPhoto({
+			custom_markup: '<div id="map_canvas" style="width:500px; height:500px"></div>',
+			changepicturecallback: function(){ initialize(); }
+		});
+	});
+</script>
+
+  
+
+</body>
+</html>
